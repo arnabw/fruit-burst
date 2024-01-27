@@ -51,7 +51,7 @@
                                 <i class="text-2xl fa-solid fa-bars"></i>
                             </div>
                             <ul tabindex="0"
-                                class="menu menu-sm dropdown-content mt-1 z-[1] p-2 shadow bg-base-100 text-themeClr rounded-box w-40 border border-headClr">
+                                class="menu menu-sm dropdown-content mt-1 p-2 shadow bg-base-100 text-themeClr rounded-box w-40 border border-headClr z-20">
                                 <li><a>Home</a></li>
                                 <li><a>About Us</a></li>
                                 <li><a>Shop</a></li>
@@ -195,6 +195,47 @@
     <!-- Main Section  -->
     <main class="container mx-auto">
         <div class="px-4 md:px-8 lg:px-32">
+            <!-- Countdown Section  -->
+            <section class="mt-10 lg:mt-52">
+                <div class="flex flex-col lg:flex-row justify-between items-center gap-5">
+                    <div class="space-y-3 md:space-y-4 lg:space-y-6 text-center lg:text-left">
+                        <h1 class="text-headClr font-extrabold text-xl md:text-2xl lg:text-5xl">Deal of the day</h1>
+                        <p class="font-medium text-sm md:text-base text-[#12121270]">A daily opportunity to indulge in
+                            exquisite flavors
+                            at unbeatable prices. Seize the moment
+                            and treat your taste buds to a rotating selection of gourmet offerings that promise to make
+                            every day a delicious adventure.</p>
+                    </div>
+                    <div>
+                        <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                            <div class="flex flex-col">
+                                <span class="countdown font-mono text-5xl">
+                                    <span style="--value:15;"></span>
+                                </span>
+                                Days
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="countdown font-mono text-5xl">
+                                    <span style="--value:10;"></span>
+                                </span>
+                                Hours
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="countdown font-mono text-5xl">
+                                    <span style="--value:24;"></span>
+                                </span>
+                                Minutes
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="countdown font-mono text-5xl">
+                                    <span style="--value:36;"></span>
+                                </span>
+                                Seconds
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
 
